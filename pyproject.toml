@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "rd-hw-7"
+version = "0.1.0"
+description = ""
+authors = ["undefined <azmolwebautomation@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = {extras = ["all"], version = "^0.112.1"}
+gunicorn = "^23.0.0"
+starlette = "^0.38.2"
+uvicorn = "^0.30.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
